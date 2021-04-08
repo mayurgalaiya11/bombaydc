@@ -70,11 +70,22 @@
                                 <input class="form-control" id="mobile" placeholder="Mobile Number" type="text">
                             </div>
                             <div class="form-group col-10">
-                                <select class="form-control form-select" id="query">
+                                <select class="form-control" id="seeAnotherField">
                                     <option>Query Type</option>
-                                    <option>Projects</option>
+                                    <option value="yes" >Projects</option>
                                     <option>Media</option>
-                                    <option>Media</option>
+                                    <option>Career</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-10" id="otherFieldDiv">
+                                <select class="form-control" id="otherField">
+                                    <option>Select Project</option>
+                                    <option>Project 1</option>
+                                    <option>Project 2</option>
+                                    <option>Project 3</option>
+                                    <option>Project 4</option>
+                                    <option>Project 5</option>
+                                    <option>Project 6</option>
                                 </select>
                             </div>
                             <div class="form-group col-10 text-right">
@@ -95,7 +106,8 @@
                         </div>
                         <div class="mobile-wrapper">
                             <div class="poup-btn">
-                                <a class="btn btn-primary btn-block" href="#" data-toggle="modal" data-target="#mobilepopup">
+                                <a class="btn btn-primary btn-block" data-target="#mobilepopup" data-toggle="modal"
+                                   href="#">
                                     Send us an Enquiry
                                 </a>
                             </div>
@@ -167,7 +179,9 @@
                 </div>
                 <div class="col-6 col-md-3 align-self-lg-end d-none d-md-block order-4">
                     <div class="float-right text-center">
-                        <img class="img-fluid" src="images/backtop.svg">
+                        <a href="#" id="back-to-top">
+                            <img class="img-fluid" src="images/backtop.svg">
+                        </a>
                         <h6>To the top</h6>
                     </div>
                 </div>
@@ -192,11 +206,11 @@
     <!--Footer End here-->
     <!--Mobile popup form start here-->
     <!-- Modal -->
-    <div class="modal fade " id="mobilepopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade " id="mobilepopup" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -232,6 +246,6 @@
 <!--Js Files Link-->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/init.js"></script>
 </body>
 </html>
