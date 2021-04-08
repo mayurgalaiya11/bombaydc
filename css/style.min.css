@@ -1,0 +1,643 @@
+/*
+Main content css start here
+*/
+body {
+    font-family: Museo_Slab;
+}
+
+.main-content {
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+Main content css end here
+*/
+
+/*
+Navbar css start here
+ */
+nav.navbar.navbar-expand-lg {
+    padding: 20px 0;
+}
+
+.navbar-brand, .footer-logo {
+    text-transform: uppercase;
+    color: #3C3C3C !important;
+    background-color: #E4E4E4;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.nav-link {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #3C3C3C !important;
+    padding: 0 20px !important;
+}
+
+/*
+Navbar css end here
+ */
+
+/*
+Banner css start here
+ */
+.banner {
+    height: 160vh;
+}
+
+.banner-content {
+    margin: 60px 0;
+}
+
+.banner-content h1 {
+    font-size: 36px;
+}
+
+.banner-content p {
+    line-height: 2.0;
+    font-size: 22px;
+    color: #646464;
+    margin: 40px 0;
+}
+
+.form-group {
+    padding: 05px 0;
+}
+
+.form .form-control {
+    border: unset;
+    border-bottom: 1px solid #D3D3D3;
+    border-radius: 0;
+}
+
+.form button.btn.btn-primary {
+    background-color: #3971B1;
+    border-radius: 0;
+    padding: 10px 40px;
+}
+
+.form-control:focus {
+    border-color: unset;
+    box-shadow: none;
+}
+
+.form button.btn.btn-primary:focus {
+    border-color: unset;
+    box-shadow: none;
+    outline: none;
+}
+
+.form button.btn.btn-primary:active {
+    border-color: unset;
+    box-shadow: unset !important;
+    background-color: #3971B1;
+    border-radius: 0;
+    padding: 10px 40px;
+}
+
+.form ::placeholder {
+    color: #8E8E8E;
+    font-size: 16px;
+}
+
+select#query {
+    color: #8E8E8E;
+    font-size: 16px;
+}
+
+.form h3 {
+    color: #3971B1;
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+.text-wrapper {
+    position: absolute;
+    bottom: -45%;
+}
+
+.text-wrapper p {
+    color: #383838;
+    font-size: 28px;
+}
+
+.contact-wrapper {
+    margin: 30px 0;
+}
+
+.contact-wrapper a {
+    color: #8E8E8E;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.enquiry h3, .redevelopment h3 {
+    font-size: 26px;
+    color: #3971B1;
+    margin: 20px 0;
+}
+
+.enquiry p, .redevelopment p, .enquiry a, .redevelopment a {
+    color: #8E8E8E;
+    font-size: 16px;
+    line-height: 1.0;
+    margin: 10px 0 0;
+}
+
+.redevelopment {
+    margin: 50px 0;
+}
+
+.poup-btn {
+    display: none;
+}
+
+.enquiry span, .redevelopment span {
+    display: none;
+}
+
+/*
+banner css end her
+*/
+
+/*
+Footer css start here
+ */
+footer {
+    background-color: #F4F4F4;
+    padding: 50px 0 0;
+}
+
+.project ul {
+    padding: 0;
+}
+
+.project li, .project a {
+    color: #383838;
+    list-style: none;
+    font-size: 14px;
+}
+
+.form label {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+#exampleInputEmail1 {
+    border: none;
+}
+
+.news-btn {
+    margin: 20px 0;
+}
+
+.copyright {
+    border-top: 1px solid #EAEAEA;
+    margin-top: 20px;
+}
+
+footer h6 {
+    font-size: 14px;
+    color: #383838;
+    padding: 15px 0;
+}
+
+.copyright h5 {
+    color: #818181;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social {
+    text-align: right;
+    padding: 20px 0;
+}
+
+.social i {
+    padding: 0 2px;
+    color: #818181;
+}
+
+/*
+Footer css end here
+ */
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait) Start
+  ##Screen = B/w 320px to 479px
+*/
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        background-position: top;
+        background-size: 260%;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .navbar {
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    a.navbar-brand {
+        margin: 0 20px;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        margin: 0 15px;
+    }
+
+    div#navbarTogglerDemo02 {
+        background-color: #ffff;
+        height: 100vh;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    a.nav-link {
+        padding: 30px 0 !important;
+    }
+
+    .banner-content, .form-mobile {
+        display: none;
+    }
+
+    .text-wrapper br {
+        display: none;
+    }
+
+    .text-wrapper {
+        position: unset;
+        margin: 50px 0;
+    }
+
+    .text-wrapper p {
+        color: #383838;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .poup-btn {
+        display: block;
+        margin-bottom: 80px;
+    }
+
+    .footer-form {
+        display: block;
+    }
+
+    .text-content {
+        height: 60vh;
+    }
+
+    .poup-btn .btn.btn-primary.btn-block, .poup-btn .btn.btn-primary.btn-block:active {
+        padding: 15px;
+        border-radius: 0;
+        background-color: #3971B1;
+        box-shadow: none;
+    }
+
+    .enquiry span, .redevelopment span {
+        display: inline-block;
+    }
+
+    .enquiry a, .redevelopment a {
+        float: right;
+    }
+
+    .enquiry p, .redevelopment p {
+        border-bottom: 1px solid #E6E6E6;
+        padding: 10px 0;
+    }
+
+    .project li {
+        padding: 05px 0;
+    }
+
+    .footer-wrapper {
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    button.btn.btn-primary.news-btn {
+        display: block;
+        width: 100%;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    .social i {
+        padding: 0 25px;
+        font-size: 20px;
+    }
+    .form-group {
+        padding: 25px 0;
+    }
+    .modal-header {
+        border: unset;
+    }
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait) End
+  ##Screen = B/w 320px to 479px
+*/
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)Start
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (min-device-width: 480px)
+and (max-device-width: 640px)
+and (orientation: landscape) {
+    .main-content {
+        background-position: top right;
+        background-size: 90%;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .navbar {
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    a.navbar-brand {
+        margin: 0 20px;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        margin: 0 15px;
+    }
+
+    div#navbarTogglerDemo02 {
+        background-color: #ffff;
+        height: auto;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    a.nav-link {
+        padding: 30px 0 !important;
+    }
+
+    .banner-content, .form-mobile {
+        display: none;
+    }
+
+    .text-wrapper br {
+        display: none;
+    }
+
+    .text-wrapper {
+        position: unset;
+        margin: 50px 0;
+    }
+
+    .text-wrapper p {
+        color: #383838;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .poup-btn {
+        display: block;
+        margin-bottom: 80px;
+    }
+
+    .footer-form {
+        display: block;
+    }
+
+    .text-content {
+        height: 60vh;
+    }
+
+    .poup-btn .btn.btn-primary.btn-block, .poup-btn .btn.btn-primary.btn-block:active {
+        padding: 15px;
+        border-radius: 0;
+        background-color: #3971B1;
+        box-shadow: none;
+    }
+
+    .enquiry span, .redevelopment span {
+        display: inline-block;
+    }
+
+    .enquiry a, .redevelopment a {
+        float: right;
+    }
+
+    .enquiry p, .redevelopment p {
+        border-bottom: 1px solid #E6E6E6;
+        padding: 10px 0;
+    }
+
+    .project li {
+        padding: 05px 0;
+    }
+
+    .footer-wrapper {
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    button.btn.btn-primary.news-btn {
+        display: block;
+        width: 100%;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    .social i {
+        padding: 0 25px;
+        font-size: 20px;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape) End
+  ##Screen = B/w 481px to 767px
+*/
+
+
+/*
+  ##Device = Tablets, Ipads (portrait) start
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+        height: 105vh;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait) end
+  ##Screen = B/w 768px to 1024px
+*/
+
+/*
+  ##Device = Tablets, Ipads (landscape) start
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .banner {
+        height: 130vh;
+    }
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape) end
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* Landscape*/
+
+@media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+    .banner {
+        height: 105vh;
+    }
+}
+
+/* Portrait*/
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+    .banner {
+        height: 80vh;
+    }
+}
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 538px){
+    .main-content {
+        background-position: top;
+        background-size: 260%;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .navbar {
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    a.navbar-brand {
+        margin: 0 20px;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        margin: 0 15px;
+    }
+
+    div#navbarTogglerDemo02 {
+        background-color: #ffff;
+        height: 100vh;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    a.nav-link {
+        padding: 30px 0 !important;
+    }
+
+    .banner-content, .form-mobile {
+        display: none;
+    }
+
+    .text-wrapper br {
+        display: none;
+    }
+
+    .text-wrapper {
+        position: unset;
+        margin: 50px 0;
+    }
+
+    .text-wrapper p {
+        color: #383838;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .poup-btn {
+        display: block;
+        margin-bottom: 80px;
+    }
+
+    .footer-form {
+        display: block;
+    }
+
+    .text-content {
+        height: 60vh;
+    }
+
+    .poup-btn .btn.btn-primary.btn-block, .poup-btn .btn.btn-primary.btn-block:active {
+        padding: 15px;
+        border-radius: 0;
+        background-color: #3971B1;
+        box-shadow: none;
+    }
+
+    .enquiry span, .redevelopment span {
+        display: inline-block;
+    }
+
+    .enquiry a, .redevelopment a {
+        float: right;
+    }
+
+    .enquiry p, .redevelopment p {
+        border-bottom: 1px solid #E6E6E6;
+        padding: 10px 0;
+    }
+
+    .project li {
+        padding: 05px 0;
+    }
+
+    .footer-wrapper {
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    button.btn.btn-primary.news-btn {
+        display: block;
+        width: 100%;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    .social i {
+        padding: 0 25px;
+        font-size: 20px;
+    }
+}
